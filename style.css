@@ -1,0 +1,7 @@
+.main{width: 460px;background: #000;height: 460px;margin: 50px auto;padding: 20px;}
+.row::after{content: " ";display: block;clear: both;}
+.item{width: 33.3%;height: 153.17px;float: left;box-sizing: border-box;}
+.right{border-right: 2px solid #ddd;}
+.bottom{
+    border-bottom: 2px solid #ddd;
+}
