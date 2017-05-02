@@ -14,7 +14,16 @@
             </div>
         </div>
     </div>
+    <div class="module" v-if="selected">
+        <div class="module-main">
+            <h2>please select X OR O</h2>
+            <hr>
+            <button v-on:click="choose('X')">X</button>
+            <button v-on:click="choose('O')">O</button>
+        </div>
+    </div>
 </div>
+
 <script src="vue.js"></script>
 <script src="app.js"></script>
 </body>
